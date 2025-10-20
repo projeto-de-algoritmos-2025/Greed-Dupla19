@@ -1,7 +1,9 @@
 class Solution {
 public:
     static const int MOD = 1e9 + 7;
+    // evitar overflow
     
+    // calcula total de maneiras para dividir o array em dois
     int modpow(long long a, long long e) {
         long long r = 1;
         while (e) {
