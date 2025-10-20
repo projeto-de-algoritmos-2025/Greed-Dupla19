@@ -19,8 +19,7 @@ Serão realizados 3 exercícios, sendo 2 de nível Difícil e um de nível médi
 
 |Nome | Dificuldade | Link Resolução |
 | -- | -- | -- |
-| [135. Candy
-](https://leetcode.com/problems/candy/description/) | Difícil | [Resolução]() |
+| [135. Candy](https://leetcode.com/problems/candy/description/) | Difícil | [Resolução]() |
 |- | Difícil | [Resolução]() |
 |- | Médio | [Resolução]() |
 
