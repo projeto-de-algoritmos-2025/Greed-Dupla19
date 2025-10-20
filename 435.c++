@@ -28,7 +28,7 @@ public:
         int count = 1;
 
         // tempo de término do último intervalo adicionado
-        long prev_end = numeric_limits<long>::min();
+        long prev_end = intervals[0][1];
 
         for (size_t i = 1; i < intervals.size(); ++i)
         {
