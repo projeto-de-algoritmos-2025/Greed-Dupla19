@@ -38,6 +38,6 @@ public:
             }
         }
 
-        return duration_heap.pop();
+        return duration_heap.size();
     }
 };
