@@ -19,7 +19,7 @@ int candy(vector<int>& ratings) {
         }
 
         // Soma o total de doces
-        int total;
+        int total = 0;
         for (int c : candies) {
             total += c;
         }
