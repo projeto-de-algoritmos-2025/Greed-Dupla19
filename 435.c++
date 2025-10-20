@@ -25,7 +25,7 @@ public:
         std::sort(intervals.begin(), intervals.end(), CompareIntervals());
 
         // intervalos não sobrepostos
-        int count = 0;
+        int count = 1;
 
         // tempo de término do último intervalo adicionado
         long prev_end = numeric_limits<long>::min();
@@ -43,6 +43,6 @@ public:
             }
         }
 
-        return count;
+        return intervals.size() - count;
     }
 };
