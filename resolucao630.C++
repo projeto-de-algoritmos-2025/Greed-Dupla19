@@ -9,5 +9,13 @@ public:
         sort(courses.begin(), courses.end(), [](const vector<int>& a, const vector<int>& b) {
             return a[1] < b[1];
         });
+    
+        // Max-Heap: Armazena as durações dos cursos atualmente selecionados.
+        // Max-Heap para encontrar o curso de maior duração para remover.
+        priority_queue<int> duration_heap;
+        
+        // Rastreador do tempo atual de conclusão. Long long para evitar potencial overflow
+        long long time = 0;
+
     }
 };
