@@ -37,5 +37,7 @@ public:
                 duration_heap.pop();
             }
         }
+
+        return duration_heap;
     }
 };
