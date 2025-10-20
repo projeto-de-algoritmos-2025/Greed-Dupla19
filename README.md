@@ -19,7 +19,7 @@ Serão realizados 3 exercícios, sendo 2 de nível Difícil e um de nível médi
 
 |Nome | Dificuldade | Link Resolução |
 | -- | -- | -- |
-|- | Difícil | [Resolução]() |
+| [2518. Number of Great Partitions](https://leetcode.com/problems/number-of-great-partitions/description/) | Difícil | [Resolução]() |
 |- | Difícil | [Resolução]() |
 |- | Médio | [Resolução]() |
 
