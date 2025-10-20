@@ -30,11 +30,19 @@ public:
         // tempo de término do último intervalo adicionado
         long prev_end = numeric_limits<long>::min();
 
-        for (const auto &interval : intervals)
+        for (size_t i = 1; i < intervals.size(); ++i)
         {
-            int start = interval[0];
-            int end = interval[1];
+            int start = intervals[i][0];
+            int end = intervals[i][1];
+
+            // Adiciona o intervalo se não houver sobreposição
+            if (start >= prev_end)
+            {
+                count++;
+                prev_end = end;
+            }
         }
-        return 0;
+
+        return count;
     }
 };
