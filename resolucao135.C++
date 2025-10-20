@@ -24,5 +24,6 @@ int candy(vector<int>& ratings) {
             total += c;
         }
 
+        return total;
     }
 }
