@@ -10,6 +10,13 @@ int candy(vector<int>& ratings) {
                 candies[i] = candies[i - 1] + 1;
             }
         }
+        
+        // Passada da direita para a esquerda
+        for (int i = n - 2; i >= 0; i--) {
+            if (ratings[i] > ratings[i + 1]) {
+                candies[i] = max(candies[i], candies[i + 1] + 1);
+            }
+        }
 
     }
 }
